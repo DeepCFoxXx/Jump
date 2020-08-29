@@ -1,22 +1,23 @@
 {
-  "name": "jump",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DeepCFoxXx/Jump.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DeepCFoxXx/Jump/issues"
-  },
-  "homepage": "https://github.com/DeepCFoxXx/Jump#readme",
-  "dependencies": {
-    "serve": "^11.3.2"
-  }
+	"name": "jump",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "serve ./public",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DeepCFoxXx/Jump.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DeepCFoxXx/Jump/issues"
+	},
+	"homepage": "https://github.com/DeepCFoxXx/Jump#readme",
+	"dependencies": {
+		"serve": "^11.3.2"
+	}
 }
